@@ -17,6 +17,8 @@ class App extends Component {
           <button>Click</button>
         <Hello name="Darek"/>
         <HelloClass />
+        <HelloClass name="Czarek"/>
+        <HelloClass name="Jarek"/>
       </div>
     );
   }
