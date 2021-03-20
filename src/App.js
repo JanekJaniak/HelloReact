@@ -8,7 +8,9 @@ import HelloClass from './components/helloClass.js'
 function App() {
   return (
     <div className="App">
-      <Hello/>
+      <Hello name="Czarek"/>
+      <Hello name="Jarek"/>
+      <Hello name="Darek"/>
       <HelloClass />
     </div>
   );

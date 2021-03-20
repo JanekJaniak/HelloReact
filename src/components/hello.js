@@ -1,11 +1,12 @@
 import React from 'react'
 
 //named export
-export const Hello = () => {
+export const Hello = (props) => {
+  
   return  (
-      <div id='1' custom='testCustomData'>
-        <h1>Janek says hello !!!</h1>
-      </div>
+    <div id='1' custom='testCustomData'>
+      <h1> { props.name } says hello !!!</h1>
+    </div>
   )
 }
 
