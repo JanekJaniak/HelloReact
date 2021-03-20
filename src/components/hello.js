@@ -6,6 +6,7 @@ export const Hello = (props) => {
   return  (
     <div id='1' custom='testCustomData'>
       <h1> { props.name } says hello !!!</h1>
+      { props.children }
     </div>
   )
 }
