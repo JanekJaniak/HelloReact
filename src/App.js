@@ -5,6 +5,7 @@ import './App.css';
 import { Hello } from './components/hello.js'
 
 import HelloClass from './components/helloClass.js'
+import Message from './components/message.js'
 
 class App extends Component {
   render() {
@@ -18,7 +19,7 @@ class App extends Component {
         <Hello name="Darek"/>
         <HelloClass />
         <HelloClass name="Czarek"/>
-        <HelloClass name="Jarek"/>
+        <Message />
       </div>
     );
   }
