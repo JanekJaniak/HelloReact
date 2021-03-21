@@ -6,6 +6,7 @@ import { Hello } from './components/hello.js'
 
 import HelloClass from './components/helloClass.js'
 import Message from './components/message.js'
+import Counter from './components/counter.js'
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
         <HelloClass />
         <HelloClass name="Czarek"/>
         <Message />
+        <Counter />
       </div>
     );
   }
