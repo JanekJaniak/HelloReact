@@ -31,10 +31,10 @@ export const Hello = (props) => {
 // }
 
 //Default export
-  {/* return React.createElement(
-    'div',
-    {id: 1, customData: 'testCustomData'},
-    React.createElement('h1', null, 'Janek says hello')
-  )
-} */}
+  // return React.createElement(
+  //   'div',
+  //   {id: 1, customData: 'testCustomData'},
+  //   React.createElement('h1', null, 'Janek says hello')
+  // )
+// } 
 // export default hello

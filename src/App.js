@@ -11,7 +11,8 @@ import './App.css';
 // import ClassClick from './components/classClick.js'
 // import EventBind from './components/eventBind.js'
 import ParentComponent from './components/parrentComponent.js'
-
+import UserGreeting from './components/userGreeting.js'
+ 
 class App extends Component {
   render() {
     return (
@@ -29,7 +30,10 @@ class App extends Component {
         <FunctionClick />
         <ClassClick />
         <EventBind /> */}
+        {/* Passing methods as props */}
         <ParentComponent />
+        {/* Conditional rendering */}
+        <UserGreeting />
       </div>
     );
   }
