@@ -12,11 +12,22 @@ import './App.css';
 // import EventBind from './components/eventBind.js'
 import ParentComponent from './components/parrentComponent.js'
 import UserGreeting from './components/userGreeting.js'
- 
+import NameList from './components/nameList.js'
+import PersonsList from './components/personsList.js'
+import Stylesheet from './components/stylesheet.js'
+import Inline from './components/inline.js'
+import './appStyles.css'
+import styles from './appStyles.module.css'
 class App extends Component {
   render() {
     return (
       <div className="App">
+        {/* Styling stylesheet*/}
+        <Stylesheet primary= {false}/>
+        {/* Inline stylig */}
+        <Inline />
+        <h1 className={styles.success}>Success</h1>
+        <h1 className='error'>Error</h1>
         {/* <Hello name="Czarek">
           <p>Children props</p>
         </Hello>
@@ -34,6 +45,10 @@ class App extends Component {
         <ParentComponent />
         {/* Conditional rendering */}
         <UserGreeting />
+        {/* List Rendering */}
+        <NameList />
+        {/* List rendering refactor */}
+        <PersonsList />
       </div>
     );
   }
