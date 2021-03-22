@@ -17,11 +17,11 @@ class App extends Component {
         <Hello name="Czarek">
           <p>Children props</p>
         </Hello>
-        <Hello name="Jarek"/>
+        <Hello name="Jarek" lastName="Ch.."/>
           <button>Click</button>
         <Hello name="Darek"/>
         <HelloClass />
-        <HelloClass name="Czarek"/>
+        <HelloClass name="Czarek" lastName="Ch.."/>
         <Message />
         <Counter />
         <FunctionClick />
