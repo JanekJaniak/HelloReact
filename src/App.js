@@ -2,20 +2,21 @@ import { Component } from 'react';
 import './App.css';
 
 // import Hello from './components/hello.js'
-import { Hello } from './components/hello.js'
+// import { Hello } from './components/hello.js'
 
-import HelloClass from './components/helloClass.js'
-import Message from './components/message.js'
-import Counter from './components/counter.js'
-import FunctionClick from './components/functionClick.js'
-import ClassClick from './components/classClick.js'
-import EventBind from './components/eventBind.js'
+// import HelloClass from './components/helloClass.js'
+// import Message from './components/message.js'
+// import Counter from './components/counter.js'
+// import FunctionClick from './components/functionClick.js'
+// import ClassClick from './components/classClick.js'
+// import EventBind from './components/eventBind.js'
+import ParentComponent from './components/parrentComponent.js'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Hello name="Czarek">
+        {/* <Hello name="Czarek">
           <p>Children props</p>
         </Hello>
         <Hello name="Jarek" lastName="Ch.."/>
@@ -27,7 +28,8 @@ class App extends Component {
         <Counter />
         <FunctionClick />
         <ClassClick />
-        <EventBind />
+        <EventBind /> */}
+        <ParentComponent />
       </div>
     );
   }
