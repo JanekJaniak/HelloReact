@@ -9,6 +9,7 @@ import Message from './components/message.js'
 import Counter from './components/counter.js'
 import FunctionClick from './components/functionClick.js'
 import ClassClick from './components/classClick.js'
+import EventBind from './components/eventBind.js'
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
         <Counter />
         <FunctionClick />
         <ClassClick />
+        <EventBind />
       </div>
     );
   }
