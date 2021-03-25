@@ -3,7 +3,6 @@ import './App.css';
 
 // import Hello from './components/hello.js'
 // import { Hello } from './components/hello.js'
-
 // import HelloClass from './components/helloClass.js'
 // import Message from './components/message.js'
 // import Counter from './components/counter.js'
@@ -19,6 +18,8 @@ import Inline from './components/inline.js'
 import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/form.js'
+import PortalDemo from './components/portalDemo.js'
+
 class App extends Component {
   render() {
     return (
@@ -52,6 +53,7 @@ class App extends Component {
         {/* <PersonsList /> */}
         {/* Form handling */}
         <Form />
+        <PortalDemo />
       </div>
     );
   }
